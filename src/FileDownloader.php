@@ -4,6 +4,8 @@ namespace ArtARTs36\OwnCloud;
 
 use GuzzleHttp\ClientInterface;
 use Psr\Http\Message\ResponseInterface;
+use ArtARTs36\OwnCloud\Contracts\FileNameExtractor;
+use ArtARTs36\OwnCloud\Contracts\UrlResolver;
 
 class FileDownloader implements Contracts\FileDownloader
 {

@@ -4,7 +4,7 @@ namespace ArtARTs36\OwnCloud;
 
 use Psr\Http\Message\ResponseInterface;
 
-class FileNameExtractor
+class FileNameExtractor implements \ArtARTs36\OwnCloud\Contracts\FileNameExtractor
 {
     public function extract(ResponseInterface $response): string
     {
